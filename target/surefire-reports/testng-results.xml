@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-30T01:15:08 IST" name="Surefire suite" finished-at="2024-08-30T01:17:26 IST" duration-ms="137636">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner@1817d444]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-30T01:15:08 IST" name="Surefire test" finished-at="2024-08-30T01:17:26 IST" duration-ms="137636">
+      <class name="Runner.runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:15:08 IST" name="setUpClass" finished-at="2024-08-30T01:15:08 IST" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f88bfbe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:15:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-30T01:15:27 IST" duration-ms="18979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the working functionality of TItle Image"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Accessories"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:15:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-30T01:15:44 IST" duration-ms="16885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the working functionality of QuickView"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Accessories"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:15:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-30T01:16:01 IST" duration-ms="16981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the working functionality of Product View"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Accessories"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:16:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-30T01:16:17 IST" duration-ms="16186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the working functionality of Brand Search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Accessories"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:16:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-30T01:16:36 IST" duration-ms="18061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the working functionality of Price Range"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Accessories"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:16:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-30T01:16:57 IST" duration-ms="20991" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the working functionality of wishlist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Accessories"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[.='Login / Register'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:debuggerAddress: 127.0.0.1:33422, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12092, moz:profile: C:\Users\PRINCE~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33422/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c444746d-4174-4095-b000-1251b544bb62]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[.='Login / Register'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:debuggerAddress: 127.0.0.1:33422, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12092, moz:profile: C:\Users\PRINCE~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33422/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c444746d-4174-4095-b000-1251b544bb62
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Steps.steps.login_box_should_get_opened(steps.java:312)
+at ✽.Login Box should get Opened(file:///C:/Users/Prince%20Raj/Documents/workspace-spring-tool-suite-4-4.23.1.RELEASE/Selenium_Cucumber_Project/src/test/resources/Feature%20Files/CarAccessories.feature:85)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:16:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-30T01:17:10 IST" duration-ms="13872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the working functionality of Products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Accessories"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:17:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-30T01:17:26 IST" duration-ms="15116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying the working functionality of COD in Car Utilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Accessories"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.runner@1817d444]" started-at="2024-08-30T01:17:26 IST" name="tearDownClass" finished-at="2024-08-30T01:17:26 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.runner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: Runner.runner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 138.7 s <<< FAILURE! -- in Runner.runner
+Runner.runner.runScenario["Verifying the working functionality of wishlist", "Car Accessories"](6) -- Time elapsed: 21.01 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //*[.='Login / Register'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:debuggerAddress: 127.0.0.1:33422, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12092, moz:profile: C:\Users\PRINCE~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33422/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c444746d-4174-4095-b000-1251b544bb62
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Steps.steps.login_box_should_get_opened(steps.java:312)
+	at ✽.Login Box should get Opened(file:///C:/Users/Prince%20Raj/Documents/workspace-spring-tool-suite-4-4.23.1.RELEASE/Selenium_Cucumber_Project/src/test/resources/Feature%20Files/CarAccessories.feature:85)
+
